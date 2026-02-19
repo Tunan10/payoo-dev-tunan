@@ -10,7 +10,7 @@ document.getElementById('login-btn').addEventListener('click', function () {
   //3- match pin & mobile
   if (contactNumber == '01772597912' && pinNumber == '2510') {
     alert('login Success');
-    window.location.assign('/home.html');
+    window.location.assign('./home.html');
     // window.location.replace('../home.html');
   } else {
     alert('Login Fail');
